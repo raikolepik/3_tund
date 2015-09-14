@@ -1,6 +1,6 @@
 <?php
 		// lehe nimi (muutuja)
-		$page_title = "Avaleht";
+		$page_title = "EvoGlass avaleht";
 			// faili nimi
 		$page_file_name = "home.php";
 		
