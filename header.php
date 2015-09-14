@@ -1,6 +1,6 @@
-<html>
+﻿<html>
 	<head>
-	 <title>EvoGlass</title>
+	 <title><?php echo $page_title; ?></title>
 	</head>
 	<body>
 	<?php

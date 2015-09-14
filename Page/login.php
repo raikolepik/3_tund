@@ -29,6 +29,14 @@
 		}
 ?>
 
+	<?php
+		// lehe nimi (muutuja)
+		$page_title = "EvoGlass";
+			// faili nimi
+		$page_file_name = "home.php";
+		
+?>		
+	<?php require_once("../header.php"); ?>
 		<h4>See veebileht on loodud selleks, et tellida endale omapärased prillid, mis sobiksid vastavalt inimese peakujuga ja oleksid sobiva hinnaga.</h4>
 		<h4>Lähemalt tutvimiseks minge sellele leheküljele : http://evoklaas.blogspot.com.ee/ </h4>
 		<h4>Facebookist leiate meid leheküljelt : https://www.facebook.com/EVOGlasses?fref=ts </h4>
@@ -54,4 +62,4 @@
 		
 		<input type="submit" value="log in">	
 			</form>
-	
+	<?php require_once("../footer.php"); ?>
