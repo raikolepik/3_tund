@@ -84,15 +84,17 @@ function test_input($data) {
 		
 		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 		
-		<input name="email" type="email" placeholder="E-post" value="<?php echo $email; ?>">* <?php echo $email_error; ?> <br> <br> 
-		<input name="password" type="password" placeholder="Password"> <?php echo $password_error; ?>	<br> <br>	
+		<input name="email" type="email" placeholder="Email" value="<?php echo $email; ?>">* <?php echo $email_error; ?> <br> <br> 
+		<input name="password" type="password" placeholder="Password">* <?php echo $password_error; ?>	<br> <br>	
 		<input name="login" type="submit" value="log in">
 		</form>
 		<h2>Sign up</h2>
 		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 		
 		<input name="id_number" type="text" placeholder="personal code" value="<?php echo $id_number; ?>">* <?php echo $id_number_error; ?> <br> <br> 
-		<input name="test" type="text" placeholder="age"> <br> <br>
+		<input name="test" type="text" placeholder="age">* <br> <br>
+		<input name="id_number" type="text" placeholder="Email">*  <br><br>
+		<input name="test" type="text" placeholder="Password">* <br> <br>
 			Gender:
 			<input type="radio" name="gender"
 			<?php if (isset($gender) && $gender=="female") echo "checked";?>
